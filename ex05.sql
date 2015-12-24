@@ -8,5 +8,5 @@ SELECT *,
   CASE WHEN type = 'p' THEN 'paperback'
        WHEN type = 'h' THEN 'hardcover'
   END AS binding_type
-  FROM editions
+  FROM editions;
   
